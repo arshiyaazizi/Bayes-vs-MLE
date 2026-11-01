@@ -34,10 +34,10 @@ ax.plot(ns, width, color="tab:orange", lw=2)
 ax.set_xscale("log")
 ax.set_xlabel("n (log scale)")
 ax.set_ylabel(r"width of Bayes-wins interval  $p_+ - p_-$")
-ax.set_title("Figure: where the Bayes estimator wins")
+ax.set_title("Figure E: where the Bayes estimator wins")
 ax.grid(alpha=0.3)
 fig.tight_layout()
-fig.savefig("figures/fig_width.png", dpi=200)
+fig.savefig("figures/figE_width.png", dpi=200)
 
 for n in (4, 400, 10_000):
     a, b = crossover(n)
