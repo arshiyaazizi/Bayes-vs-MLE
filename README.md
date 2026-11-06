@@ -32,9 +32,9 @@ The first is a parabola in p. The second does not depend on p, which is the reas
 | `results.csv` | Simulation output (48 rows: 6 values of p × 8 values of n) |
 | `results_dense.csv` | Simulation output on a dense p grid, used by Figures A and D |
 | `validation.csv` | Simulated vs exact MSE with relative errors |
+| `Conclusion.md` | The answer to the project's question and what is concluded |
+| `README.md` | A README file for better guidance |
 | `figures/` | Figures A to E as PNG files |
-| `Conclusion.md/` | The answer to the project's question and what is concluded |
-| `README.md/` | A README file for better guidance |
 
 
 ## How to run
